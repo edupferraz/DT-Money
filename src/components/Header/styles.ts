@@ -6,6 +6,8 @@ export const HeaderContainer = styled.header`
 `
 
 export const HeaderContent = styled.div`
+
+    /* Centralize a component */
     width: 100%;
     max-width: 1120px;
     margin: 0 auto;
@@ -26,7 +28,6 @@ export const NewTransactionButton = styled.button `
     padding: 0 1.25rem;
     border-radius: 6px;
     cursor: pointer;
-
 
     &:hover {
         background: ${props => props.theme['green-500']};
